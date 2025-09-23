@@ -25,5 +25,8 @@ export default defineConfig({
     docFooter: { prev: '上一页', next: '下一页' },
     lastUpdatedText: '上次更新',
   },
-  vite: { server: { host: true } },
+  vite: { 
+    server: { host: true },
+    publicDir: '../public'
+  },
 })

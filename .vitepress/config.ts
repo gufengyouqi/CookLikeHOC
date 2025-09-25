@@ -9,6 +9,14 @@ export default defineConfig({
   description: '像老乡鸡那样做饭,炒菜,炖菜,烤类,凉拌,卤菜,配料,砂锅菜,汤,烫菜,饮品,早餐,炸品,蒸菜,主食,煮锅',
   lastUpdated: true,
   cleanUrls: true,
+  head: [
+    // 添加Google广告脚本
+    ['script', { 
+      async: '',
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9801793223525813',
+      crossorigin: 'anonymous'
+    }]
+  ],
   themeConfig: {
     logo: '/logo.png',
     nav: [

@@ -33,6 +33,11 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页',
     },
+    footer:{
+      // 添加友链，乡村电视：https://tv.xiangcunlu.com,乡村菜谱:https://cook.xiangcunlu.com
+      copyright: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021001985号-1</a> | <a href="https://tv.xiangcunlu.com" target="_blank">乡村电视</a> | <a href="https://cook.xiangcunlu.com" target="_blank">乡村菜谱</a>'
+      
+    },
     lastUpdatedText: '上次更新',
   },
   vite: {
